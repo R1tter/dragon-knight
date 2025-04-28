@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dragon Knight: Inferno Assault</title>
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+  <canvas id="gameCanvas"></canvas>
+
+  <!-- Tela de Início -->
+  <div id="startScreen" class="screen">
+    <h1>DRAGON KNIGHT</h1>
+    <h2>Inferno Assault</h2>
+    <button id="startBtn">Começar</button>
+  </div>
+
+  <!-- Tela de Game Over -->
+  <div id="gameOverScreen" class="screen">
+    <h1>GAME OVER</h1>
+    <h2 id="finalScore">Score: 0</h2>
+    <button id="restartBtn">Jogar Novamente</button>
+  </div>
+
+  <script type="module" src="./src/game.js"></script>
+</body>
+</html>
