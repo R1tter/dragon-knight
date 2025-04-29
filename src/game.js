@@ -1,5 +1,3 @@
-// src/game.js
-
 import { loadAssets } from "./assets.js";
 
 const canvas = document.getElementById("gameCanvas");
